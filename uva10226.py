@@ -1,4 +1,5 @@
-import sys
+# import sys
+from sys import stdin
 
 N = int(input())
 _ = input()
@@ -9,7 +10,7 @@ for case in range(N):
     tree_nums = 0
 
     while True:
-        temp = sys.stdin.readline().strip()
+        temp = stdin.readline().strip()
         if (temp == ''):
             break
 
